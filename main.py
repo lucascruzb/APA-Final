@@ -18,7 +18,7 @@ def receber_tabela_produtos():
 
     nome_arquivo = "Produtos.csv"
 
-    with open(nome_arquivo, "r", encoding="ISO-8859-1") as arquivo:
+    with open(nome_arquivo, "r", encoding="UTF-8") as arquivo:
         leitor = csv.reader(arquivo, delimiter=";")
         cabecalho = next(leitor)  # Pula a linha do cabeçalho
 
@@ -37,7 +37,7 @@ def receber_tabela_produtos():
                 "Fornecedor": fornecedor
             }
 
-            produtos.adicionar_item(fornecedor, item)
+            produtos.adicionar_item(produto, item)
 
     return produtos
 
@@ -47,7 +47,7 @@ def receber_tabela_fretes():
 
     nome_arquivo = "Fretes.csv"
 
-    with open(nome_arquivo, "r", encoding="ISO-8859-1") as arquivo:
+    with open(nome_arquivo, "r", encoding="utf-8") as arquivo:
         leitor = csv.reader(arquivo, delimiter=";")
         cabecalho = next(leitor)  # Pula a linha do cabeçalho
         for linha in leitor:
@@ -90,9 +90,21 @@ print(tabela_produtos.tabela)
 
 # Função de aptidão de exemplo
 def fitness(individual):
-    # Implemente a função de aptidão de acordo com o problema em questão
-    # Quanto maior o valor retornado, melhor é o indivíduo
-    return sum(individual)
+    a = 0;
+    valorTotal =0;
+    produtores = []
+    for _ in tabela_carrinho.tabela:
+        produtor = individual[a]
+        valorTotal += tabela_produtos.tabela[_][produtor]['Preço (R$)'] * tabela_carrinho.tabela[_][0]
+        fornecedor = str(tabela_produtos.tabela[_][produtor]['Fornecedor'])
+        if fornecedor in produtores:
+            pass;
+        else :
+            produtores.append(fornecedor)
+            valorTotal += tabela_fretes.tabela[fornecedor][0]['Frete']
+        a +=1;
+
+    return valorTotal
 
 # Função de cruzamento (crossover)
 def crossover(parent1, parent2):
@@ -117,15 +129,18 @@ def mutate(individual, mutation_rate):
 
 # Parâmetros do algoritmo genético
 population_size = 100
-gene_length = 1541
+gene_length = len(tabela_carrinho.tabela)
 mutation_rate = 0.1
 max_generations = 100
 
 # Gerar população inicial
 population = []
-for _ in range(population_size):
-    individual = [random.randint(0, 9) for _ in range(gene_length)]
+for i in range(100):
+    individual = []
+    for _ in tabela_carrinho.tabela:
+        individual.append(random.randint(0, len(tabela_produtos.tabela[_])-1))
     population.append(individual)
+    individual.clear
 
 # Executar o algoritmo genético
 for generation in range(max_generations):
@@ -154,6 +169,6 @@ for generation in range(max_generations):
     population = mutated_population
 
 # Imprimir resultado
-best_individual = population[fitness_scores.index(max(fitness_scores))]
+best_individual = population[fitness_scores.index(min(fitness_scores))]
 print("Melhor indivíduo:", best_individual)
 print("Aptidão:", fitness(best_individual))

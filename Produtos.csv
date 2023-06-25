@@ -2,7 +2,7 @@ Tipo de produto;Produto;Pre�o (R$);Peso;Fornecedor
 Hortifruti;Acelga;3;1 un;Al�cia das Neves
 Hortifruti;Acelga;6;1 un;Jo�o Guilherme Ramos
 Hortifruti;Acelga;3;1 un;Lucas da Cunha
-Hortifruti;Acelga;6;1 un; Luiz Miguel Sales
+Hortifruti;Acelga;6;1 un;Luiz Miguel Sales
 Hortifruti;Acelga;5;1 un;Maysa da Concei��o
 Hortifruti;Acelga;3;1 un;Ana Rezende
 Hortifruti;Acelga;4;1 un;Matheus Correia
@@ -514,12 +514,12 @@ Hortifruti;Tangerina;12;1 kg;Alicia Campos
 Hortifruti;Tangerina;13;1 kg;Davi Luiz Lopes
 Hortifruti;Tangerina;15;1 kg;Yago Castro
 Hortifruti;Abacaxi;9;1 un;Augusto Cunha
-Hortifruti;Abacaxi;11;1 un; Maria Fernanda Rocha
+Hortifruti;Abacaxi;11;1 un;Maria Fernanda Rocha
 Hortifruti;Abacaxi;9;1 un;Lara Porto
 Hortifruti;Abacaxi;13;1 un;Nathan Oliveira
 Hortifruti;Abacaxi;10;1 un;Augusto Ribeiro
-Hortifruti;Nabo;8;1 un; Juan Ferreira
-Hortifruti;Nabo;14;1 un; Thiago Ramos
+Hortifruti;Nabo;8;1 un;Juan Ferreira
+Hortifruti;Nabo;14;1 un;Thiago Ramos
 Hortifruti;Nabo;12;1 un;Nina Moreira
 Hortifruti;Nabo;11;1 un;Fernando Santos
 Hortifruti;Nabo;14;1 un;Isaac Rezende
@@ -571,23 +571,23 @@ Hortifruti;Laranja do C�u;14;1 kg;Lucas da Cunha
 Hortifruti;Laranja do C�u;15;1 kg;Sabrina Costa
 Hortifruti;Laranja do C�u;8;1 kg;Ryan Cardoso
 Hortifruti;Laranja do C�u;9;1 kg;Lorena Santos
-Hortifruti;Laranja do C�u;12;1 kg; Andr� da Rocha
+Hortifruti;Laranja do C�u;12;1 kg;Andr� da Rocha
 Hortifruti;Ma��;11;1 kg;Augusto Ribeiro
-Hortifruti;Ma��;10;1 kg; Nathan Ferreira
+Hortifruti;Ma��;10;1 kg;Nathan Ferreira
 Hortifruti;Ma��;13;1 kg;Vitor Gabriel Mendes
 Hortifruti;Ma��;8;1 kg;Vitor Barbosa
 Hortifruti;Ma��;9;1 kg;Mariana Campos
 Hortifruti;Ma��;10;1 kg;Agatha Rodrigues
 Hortifruti;P�ssego;11;1 kg;Luna Fernandes
 Hortifruti;P�ssego;13;1 kg;Alicia Campos
-Hortifruti;P�ssego;11;1 kg; Maria Fernanda Rocha
+Hortifruti;P�ssego;11;1 kg;Maria Fernanda Rocha
 Hortifruti;Tangerina;13;1 kg;Ana Beatriz Souza
 Hortifruti;Tangerina;8;1 kg;Luiza Ramos
 Hortifruti;Tangerina;12;1 kg;Enrico Novaes
 Hortifruti;Abacaxi;14;1 un;Luiza Ramos
 Hortifruti;Abacaxi;9;1 un;Enrico Novaes
-Hortifruti;Abacaxi;13;1 un; Joaquim Melo
-Hortifruti;Abacaxi;11;1 un; Luiz Miguel da Costa
+Hortifruti;Abacaxi;13;1 un;Joaquim Melo
+Hortifruti;Abacaxi;11;1 un;Luiz Miguel da Costa
 Hortifruti;Abacaxi;8;1 un;Bruno Pires
 Hortifruti;Abacaxi;8;1 un;Francisco Oliveira
 Hortifruti;Abacaxi;14;1 un;Yago Castro
@@ -596,13 +596,13 @@ Hortifruti;Abacaxi;10;1 un;Vitor Hugo Viana
 Hortifruti;Abacaxi;14;1 un;Enzo Gabriel Nunes
 Hortifruti;Abacaxi;9;1 un;Milena Arag�o
 Hortifruti;Abacaxi;15;1 un;Vinicius Moreira
-Hortifruti;Nabo;13;1 un; Luiz Miguel da Costa
+Hortifruti;Nabo;13;1 un;Luiz Miguel da Costa
 Hortifruti;Nabo;14;1 un;Francisco Oliveira
 Hortifruti;Nabo;11;1 un;Brenda Cardoso
 Hortifruti;Nabo;13;1 un;Luiza da Mata
-Hortifruti;Nabo;9;1 un; Cau� da Concei��o
+Hortifruti;Nabo;9;1 un;Cau� da Concei��o
 Hortifruti;Nabo;14;1 un;Al�cia das Neves
-Hortifruti;Nabo;8;1 un; Luiz Miguel Sales
+Hortifruti;Nabo;8;1 un;Luiz Miguel Sales
 Hortifruti;Nabo;14;1 un;Mariana Campos
 Latic�nio;Manteiga;7;100 g;Daniel Gon�alves
 Latic�nio;Manteiga;9;100 g;Alexia Barros
@@ -611,7 +611,7 @@ Latic�nio;Manteiga;7;100 g;Gabriela da Rocha
 Latic�nio;Manteiga;10;100 g;Jo�o Pedro Costa
 Latic�nio;Manteiga;10;100 g;Larissa da Mata
 Latic�nio;Manteiga;7;100 g;Danilo Cavalcanti
-Mel;Mel;14;200 g; Alexia da Rocha
+Mel;Mel;14;200 g;Alexia da Rocha
 Mel;Mel;16;200 g;Alana Sales
 Mel;Mel;14;200 g;Danilo Cavalcanti
 Mel;Mel;10;200 g;Eduardo Jesus
@@ -621,23 +621,23 @@ Mel;Mel;17;200 g;Alana Porto
 Latic�nio;Nata Fresca;13;200 g;Alana Porto
 Latic�nio;Nata Fresca;10;200 g;Alexia Barros
 Latic�nio;Nata Fresca;13;200 g;Pedro Henrique Freitas
-Latic�nio;Nata Fresca;12;200 g; Diego Ara�jo
-Latic�nio;Nata Fresca;10;200 g; Alexia da Rocha
+Latic�nio;Nata Fresca;12;200 g;Diego Ara�jo
+Latic�nio;Nata Fresca;10;200 g;Alexia da Rocha
 Latic�nio;Nata Fresca;12;200 g;Sophia Cavalcanti
 Latic�nio;Nata Fresca;10;200 g;Breno das Neves
 Latic�nio;Nata Fresca;12;200 g;Alexandre das Neves
 Latic�nio;Nata Fresca;10;200 g;Agatha da Paz
 Latic�nio;Nata Fresca;10;200 g;Matheus Teixeira
-Latic�nio;Nata Fresca;13;200 g; Maria Luiza Caldeira
+Latic�nio;Nata Fresca;13;200 g;Maria Luiza Caldeira
 Latic�nio;Nata Fresca;11;200 g;Yasmin Freitas
 Latic�nio;Nata Pi�;11;200 g;Kaique Novaes
 Latic�nio;Nata Pi�;12;200 g;Thomas Freitas
 Latic�nio;Nata Pi�;11;200 g;Lucca da Mata
-Latic�nio;Nata Pi�;10;200 g; Maria Fernanda Rocha
+Latic�nio;Nata Pi�;10;200 g;Maria Fernanda Rocha
 Latic�nio;Nata Pi�;12;200 g;Maria Cec�lia Almeida
 Latic�nio;Nata Pi�;10;200 g;Lara Porto
 Latic�nio;Nata Pi�;10;200 g;Nathan Oliveira
-Latic�nio;Nata Pi�;13;200 g; Juan Ferreira
+Latic�nio;Nata Pi�;13;200 g;Juan Ferreira
 Latic�nio;Nata Pi�;10;200 g;Fernando Vieira
 Latic�nio;Nata Pi�;10;200 g;Leonardo da Cruz
 Latic�nio;Nata Santa Clara;11;200 g;Ana Luiza Pires
@@ -653,18 +653,18 @@ Latic�nio;Nata Santa Clara;13;200 g;Nat�lia da Costa
 Latic�nio;Nata Santa Clara;11;200 g;Larissa da Mata
 Latic�nio;Nata Santa Clara;12;200 g;Breno das Neves
 Latic�nio;Nata Santa Clara;12;200 g;Maria Alice Correia
-Latic�nio;Nata Santa Clara;12;200 g; Isadora Nogueira
+Latic�nio;Nata Santa Clara;12;200 g;Isadora Nogueira
 Latic�nio;Nata Tirol;11;200 g;Valentina Ferreira
 Latic�nio;Nata Tirol;12;200 g;Juliana Rocha
 Hortifruti;Alho;14;1 kg;Laura Costela
 Hortifruti;Alho;15;1 kg;Yago Peixoto
-Hortifruti;Alho;12;1 kg; Andr� da Rocha
-Hortifruti;Alho;11;1 kg; Diego Ara�jo
-Hortifruti;Banana;11;1 kg; Joaquim Melo
+Hortifruti;Alho;12;1 kg;Andr� da Rocha
+Hortifruti;Alho;11;1 kg;Diego Ara�jo
+Hortifruti;Banana;11;1 kg;Joaquim Melo
 Hortifruti;Banana;11;1 kg;Mirella Viana
 Hortifruti;Bergamota Ca�;14;1 kg;Felipe Ramos
-Hortifruti;Bergamota Ca�;14;1 kg; Luiz Miguel da Costa
-Hortifruti;Bergamota Ca�;8;1 kg; Pietra Lima
+Hortifruti;Bergamota Ca�;14;1 kg;Luiz Miguel da Costa
+Hortifruti;Bergamota Ca�;8;1 kg;Pietra Lima
 Hortifruti;Bergamota Ca�;13;1 kg;Brenda Cardoso
 Hortifruti;Bergamota Ca�;11;1 kg;Yago Castro
 Hortifruti;Bergamota Ca�;14;1 kg;Pedro Henrique das Neves
@@ -675,10 +675,10 @@ Hortifruti;Bergamota Ponkan;11;1 kg;Bryan Mendes
 Hortifruti;Bergamota Ponkan;9;1 kg;Giovanna Lima
 Hortifruti;Bergamota Ponkan;15;1 kg;Ryan Cardoso
 Hortifruti;Bergamota Ponkan;9;1 kg;Giovanna Mendes
-Hortifruti;Bergamota Ponkan;8;1 kg; Andr� da Rocha
+Hortifruti;Bergamota Ponkan;8;1 kg;Andr� da Rocha
 Hortifruti;Cebola;8;1 kg;Jo�o Miguel da Costa
 Hortifruti;Cebola;9;1 kg;Lara Porto
-Hortifruti;Cenoura;13;1 kg; Juan Ferreira
+Hortifruti;Cenoura;13;1 kg;Juan Ferreira
 Hortifruti;Cenoura;15;1 kg;Augusto Ribeiro
 Hortifruti;Cenoura;9;1 kg;Daniel Gon�alves
 Hortifruti;Cenoura;13;1 kg;Alexia Barros
@@ -690,9 +690,9 @@ Hortifruti;Laranja de Umbigo;13;1 kg;Gabriela Alves
 Hortifruti;Laranja de Umbigo;12;1 kg;Lara Porto
 Hortifruti;Laranja de Umbigo;12;1 kg;Bruno Pires
 Hortifruti;Laranja de Umbigo;11;1 kg;Francisco Oliveira
-Hortifruti;Laranja do C�u;12;1 kg; Luiz Miguel Sales
+Hortifruti;Laranja do C�u;12;1 kg;Luiz Miguel Sales
 Hortifruti;Laranja do C�u;11;1 kg;Maysa da Concei��o
-Hortifruti;Laranja do C�u;15;1 kg; Ana Rezende
+Hortifruti;Laranja do C�u;15;1 kg;Ana Rezende
 Hortifruti;Laranja do C�u;12;1 kg;Bryan Mendes
 Hortifruti;Laranja do C�u;11;1 kg;Laura Costela
 Hortifruti;Laranja do C�u;10;1 kg;Agatha Rodrigues
@@ -703,7 +703,7 @@ Hortifruti;Laranja do C�u;10;1 kg;Juan Freitas
 Hortifruti;Laranja do C�u;13;1 kg;Ot�vio Moreira
 Hortifruti;Ma��;14;1 kg;Bruno Pires
 Hortifruti;Ma��;11;1 kg;Francisco Oliveira
-Hortifruti;Ma��;14;1 kg; Thiago Ramos
+Hortifruti;Ma��;14;1 kg;Thiago Ramos
 Hortifruti;Ma��;14;1 kg;Nina Moreira
 Hortifruti;Ma��;14;1 kg;Vinicius Moreira
 Hortifruti;Ma��;12;1 kg;Diego da Concei��o
@@ -711,7 +711,7 @@ Hortifruti;Ma��;10;1 kg;Lucas da Cunha
 Hortifruti;Ma��;13;1 kg;Paulo Novaes
 Hortifruti;P�ssego;9;1 kg;Thomas Freitas
 Hortifruti;P�ssego;14;1 kg;Jo�o Felipe Cruz
-Hortifruti;P�ssego;13;1 kg; Joaquim Melo
+Hortifruti;P�ssego;13;1 kg;Joaquim Melo
 Hortifruti;Abacaxi;15;1 un;Manuela Novaes
 Hortifruti;Abacaxi;14;1 un;Alicia Campos
 Hortifruti;Abacaxi;11;1 un;Isabelly da Mata
@@ -719,8 +719,8 @@ Hortifruti;Abacaxi;10;1 un;Jo�o Miguel da Costa
 Hortifruti;Abacaxi;9;1 un;Raquel Azevedo
 Hortifruti;Abacaxi;11;1 un;Helena Pereira
 Hortifruti;Abacaxi;9;1 un;Nina Moreira
-Hortifruti;Abacaxi;8;1 un; Nathan Ferreira
-Hortifruti;Nabo;14;1 un; Pietra Lima
+Hortifruti;Abacaxi;8;1 un;Nathan Ferreira
+Hortifruti;Nabo;14;1 un;Pietra Lima
 Hortifruti;Nabo;14;1 un;Nathan Oliveira
 Hortifruti;Nabo;10;1 un;Milena Arag�o
 Hortifruti;Nabo;10;1 un;Julia Dias
@@ -731,12 +731,12 @@ Hortifruti;Nabo;13;1 un;Sabrina Costa
 Mel;Mel;13;200 g;Felipe Freitas
 Mel;Mel;13;200 g;Ana Clara Silva
 Mel;Mel;14;200 g;Francisco da Paz
-Mel;Mel;11;200 g; Stephany Pereira
+Mel;Mel;11;200 g;Stephany Pereira
 Latic�nio;Nata Fresca;12;200 g;Daniela da Cruz
 Latic�nio;Nata Fresca;13;200 g;Isabelly Moura
 Latic�nio;Nata Fresca;12;200 g;Miguel Ramos
 Latic�nio;Nata Fresca;10;200 g;Ana Clara Silva
-Latic�nio;Nata Fresca;10;200 g; Stephany da Rocha
+Latic�nio;Nata Fresca;10;200 g;Stephany da Rocha
 Latic�nio;Nata Fresca;12;200 g;Maria Sophia Gon�alves
 Latic�nio;Nata Fresca;12;200 g;Francisco da Paz
 Latic�nio;Nata Fresca;10;200 g;Juliana Rocha
@@ -753,21 +753,21 @@ Latic�nio;Nata Pi�;13;200 g;Luiza Ramos
 Latic�nio;Nata Pi�;11;200 g;Alicia Campos
 Latic�nio;Nata Pi�;12;200 g;Davi Luiz Lopes
 Latic�nio;Nata Pi�;13;200 g;Maria Luiza Costela
-Latic�nio;Nata Pi�;12;200 g; Pietra Lima
+Latic�nio;Nata Pi�;12;200 g;Pietra Lima
 Latic�nio;Nata Pi�;10;200 g;Yago Castro
 Latic�nio;Nata Pi�;13;200 g;Luiza da Mata
 Latic�nio;Nata Pi�;11;200 g;Pedro Henrique das Neves
 Latic�nio;Nata Pi�;11;200 g;Helena Pereira
 Latic�nio;Nata Santa Clara;12;200 g;Raul Ara�jo
-Latic�nio;Nata Santa Clara;13;200 g; Nathan Ferreira
+Latic�nio;Nata Santa Clara;13;200 g;Nathan Ferreira
 Latic�nio;Nata Santa Clara;10;200 g;Pedro Lucas Cardoso
 Latic�nio;Nata Santa Clara;13;200 g;Vitor Gabriel Mendes
 Latic�nio;Nata Santa Clara;13;200 g;Vit�ria das Neves
 Latic�nio;Nata Santa Clara;11;200 g;Al�cia das Neves
 Latic�nio;Nata Santa Clara;11;200 g;Alexia Barros
-Latic�nio;Nata Santa Clara;10;200 g; Alice Teixeira
+Latic�nio;Nata Santa Clara;10;200 g;Alice Teixeira
 Latic�nio;Nata Santa Clara;12;200 g;Leonardo Teixeira
-Latic�nio;Nata Santa Clara;12;200 g; Andr� da Rocha
+Latic�nio;Nata Santa Clara;12;200 g;Andr� da Rocha
 Latic�nio;Nata Santa Clara;10;200 g;Ot�vio Moreira
 Latic�nio;Nata Santa Clara;12;200 g;Jo�o Pedro Costa
 Latic�nio;Nata Santa Clara;11;200 g;Cec�lia Correia
@@ -780,7 +780,7 @@ Latic�nio;Nata Tirol;13;200 g;Alexandre das Neves
 Latic�nio;Nata Tirol;12;200 g;Francisco da Paz
 Latic�nio;Nata Tirol;12;200 g;Matheus Nogueira
 Hortifruti;Alho;12;1 kg;Paulo Novaes
-Hortifruti;Alho;11;1 kg; Alice Teixeira
+Hortifruti;Alho;11;1 kg;Alice Teixeira
 Hortifruti;Alho;14;1 kg;Maria Gon�alves
 Hortifruti;Alho;11;1 kg;Lucca Cavalcanti
 Hortifruti;Banana;9;1 kg;Alicia Campos
@@ -799,14 +799,14 @@ Hortifruti;Cenoura;11;1 kg;Fernando Vieira
 Hortifruti;Cenoura;14;1 kg;Vinicius Moreira
 Hortifruti;Cenoura;8;1 kg;Vitor Gabriel Mendes
 Hortifruti;Cenoura;12;1 kg;Juan Freitas
-Hortifruti;Cenoura;13;1 kg; Andr� da Rocha
+Hortifruti;Cenoura;13;1 kg;Andr� da Rocha
 Hortifruti;Laranja de Umbigo;11;1 kg;Milena Costa
 Hortifruti;Laranja de Umbigo;9;1 kg;Augusto Cunha
-Hortifruti;Laranja de Umbigo;8;1 kg; Maria Fernanda Rocha
+Hortifruti;Laranja de Umbigo;8;1 kg;Maria Fernanda Rocha
 Hortifruti;Laranja de Umbigo;13;1 kg;Felipe Ramos
-Hortifruti;Laranja de Umbigo;13;1 kg; Luiz Miguel da Costa
+Hortifruti;Laranja de Umbigo;13;1 kg;Luiz Miguel da Costa
 Hortifruti;Laranja de Umbigo;11;1 kg;Fernando Vieira
-Hortifruti;Laranja de Umbigo;10;1 kg; Cau� da Concei��o
+Hortifruti;Laranja de Umbigo;10;1 kg;Cau� da Concei��o
 Hortifruti;Laranja do C�u;14;1 kg;Vit�ria das Neves
 Hortifruti;Laranja do C�u;10;1 kg;Giovanna Lima
 Hortifruti;Laranja do C�u;15;1 kg;Alexia Barros
@@ -815,23 +815,23 @@ Hortifruti;Ma��;10;1 kg;Fernando Vieira
 Hortifruti;Ma��;12;1 kg;Pedro Lucas Cardoso
 Hortifruti;Ma��;8;1 kg;Fernando Santos
 Hortifruti;Ma��;12;1 kg;Jo�o Guilherme Ramos
-Hortifruti;Ma��;15;1 kg; Luiz Miguel Sales
+Hortifruti;Ma��;15;1 kg;Luiz Miguel Sales
 Hortifruti;Ma��;15;1 kg;Maysa da Concei��o
-Hortifruti;Ma��;14;1 kg; Ana Rezende
+Hortifruti;Ma��;14;1 kg;Ana Rezende
 Hortifruti;Ma��;10;1 kg;Laura Costela
 Hortifruti;P�ssego;15;1 kg;Luiza Ramos
 Hortifruti;Tangerina;12;1 kg;Manuela Novaes
-Hortifruti;Tangerina;8;1 kg; Joaquim Melo
+Hortifruti;Tangerina;8;1 kg;Joaquim Melo
 Hortifruti;Tangerina;13;1 kg;Isabelly da Mata
 Hortifruti;Tangerina;8;1 kg;Brenda Cardoso
 Hortifruti;Abacaxi;11;1 un;Matheus Nogueira
 Hortifruti;Abacaxi;14;1 un;Ana Beatriz Souza
 Hortifruti;Abacaxi;12;1 un;Thales Moura
-Hortifruti;Beterraba;13;1 un; Diego Ara�jo
+Hortifruti;Beterraba;13;1 un;Diego Ara�jo
 Hortifruti;Beterraba;13;1 un;Isabelly Moura
 Hortifruti;Beterraba;13;1 un;Sophia Cavalcanti
 Hortifruti;Beterraba;14;1 un;Ana Sophia Costela
-Hortifruti;Beterraba;14;1 un; Stephany da Rocha
+Hortifruti;Beterraba;14;1 un;Stephany da Rocha
 Hortifruti;Beterraba;13;1 un;Alexandre das Neves
 Hortifruti;Beterraba;13;1 un;Juliana Rocha
 Hortifruti;Beterraba;15;1 un;Matheus Teixeira
@@ -839,7 +839,7 @@ Hortifruti;Beterraba;15;1 un;Jo�o Guilherme da Cunha
 Hortifruti;Beterraba;15;1 un;Yasmin Freitas
 Hortifruti;Nabo;13;1 un;Yago Castro
 Hortifruti;Nabo;10;1 un;Vinicius Moreira
-Hortifruti;Nabo;13;1 un; Nathan Ferreira
+Hortifruti;Nabo;13;1 un;Nathan Ferreira
 Hortifruti;Nabo;9;1 un;Diego da Concei��o
 Hortifruti;Nabo;15;1 un;Bryan Mendes
 Hortifruti;Nabo;13;1 un;Sophia da Mata
@@ -847,26 +847,26 @@ Hortifruti;Nabo;9;1 un;Giovanna Lima
 Latic�nio;Manteiga;18;200 g;Vinicius da Paz
 Latic�nio;Manteiga;12;200 g;Luna Fernandes
 Latic�nio;Manteiga;15;200 g;Vitor Hugo da Mata
-Latic�nio;Manteiga;18;200 g; Maria Fernanda Rocha
+Latic�nio;Manteiga;18;200 g;Maria Fernanda Rocha
 Latic�nio;Manteiga;16;200 g;Luiz Ot�vio Porto
 Latic�nio;Manteiga;16;200 g;Maria Luiza Costela
-Latic�nio;Manteiga;19;200 g; Pietra Lima
+Latic�nio;Manteiga;19;200 g;Pietra Lima
 Latic�nio;Manteiga;12;200 g;Bruno Pires
 Latic�nio;Manteiga;19;200 g;Davi Lucca Teixeira
-Latic�nio;Manteiga;16;200 g; Thiago Ramos
+Latic�nio;Manteiga;16;200 g;Thiago Ramos
 Mel;Mel;14;200 g;Olivia Almeida
 Mel;Mel;15;200 g;Maria Alice Correia
-Mel;Mel;19;200 g; Isadora Nogueira
+Mel;Mel;19;200 g;Isadora Nogueira
 Mel;Mel;19;200 g;Juliana Rocha
 Mel;Mel;12;200 g;Agatha da Paz
-Mel;Mel;13;200 g; Maria Luiza Caldeira
+Mel;Mel;13;200 g;Maria Luiza Caldeira
 Mel;Mel;11;200 g;Jo�o Guilherme da Cunha
 Latic�nio;Nata Fresca;10;200 g;Matheus Correia
 Latic�nio;Nata Fresca;12;200 g;Agatha Rodrigues
 Latic�nio;Nata Fresca;11;200 g;Lorena Santos
-Latic�nio;Nata Fresca;13;200 g; Alice Teixeira
+Latic�nio;Nata Fresca;13;200 g;Alice Teixeira
 Latic�nio;Nata Fresca;13;200 g;Jo�o Vitor Sales
-Latic�nio;Nata Fresca;12;200 g; Andr� da Rocha
+Latic�nio;Nata Fresca;12;200 g;Andr� da Rocha
 Latic�nio;Nata Fresca;11;200 g;Nat�lia da Costa
 Latic�nio;Nata Fresca;13;200 g;Jo�o Pedro Costa
 Latic�nio;Nata Fresca;12;200 g;Maria Alice Correia
@@ -874,14 +874,14 @@ Latic�nio;Nata Fresca;10;200 g;Alana Sales
 Latic�nio;Nata Fresca;10;200 g;Felipe Freitas
 Latic�nio;Nata Fresca;11;200 g;Ana Beatriz Santos
 Latic�nio;Nata Fresca;12;200 g;Ana Sophia Costela
-Latic�nio;Nata Fresca;10;200 g; Isabelly Oliveira
+Latic�nio;Nata Fresca;10;200 g;Isabelly Oliveira
 Latic�nio;Nata Fresca;11;200 g;Valentina Ferreira
 Latic�nio;Nata Fresca;10;200 g;Vinicius da Paz
-Latic�nio;Nata Fresca;12;200 g; Stephany Pereira
+Latic�nio;Nata Fresca;12;200 g;Stephany Pereira
 Latic�nio;Nata Fresca;12;200 g;Jo�o Guilherme da Cunha
 Latic�nio;Nata Pi�;13;200 g;Jo�o Felipe Cruz
 Latic�nio;Nata Pi�;12;200 g;Ana Beatriz Souza
-Latic�nio;Nata Pi�;13;200 g; Joaquim Melo
+Latic�nio;Nata Pi�;13;200 g;Joaquim Melo
 Latic�nio;Nata Pi�;11;200 g;Jo�o Miguel da Costa
 Latic�nio;Nata Pi�;11;200 g;Felipe Ramos
 Latic�nio;Nata Pi�;13;200 g;Thales Moura
@@ -892,19 +892,19 @@ Latic�nio;Nata Pi�;12;200 g;Davi Lucca Teixeira
 Latic�nio;Nata Pi�;12;200 g;Augusto Ribeiro
 Latic�nio;Nata Pi�;10;200 g;Nina Moreira
 Latic�nio;Nata Pi�;13;200 g;Milena Arag�o
-Latic�nio;Nata Santa Clara;12;200 g; Cau� da Concei��o
+Latic�nio;Nata Santa Clara;12;200 g;Cau� da Concei��o
 Latic�nio;Nata Santa Clara;13;200 g;Julia Dias
 Latic�nio;Nata Santa Clara;12;200 g;Diego da Concei��o
 Latic�nio;Nata Santa Clara;10;200 g;Jo�o Guilherme Ramos
 Latic�nio;Nata Santa Clara;13;200 g;Yago Peixoto
 Latic�nio;Nata Santa Clara;13;200 g;Gabriela da Rocha
-Latic�nio;Nata Santa Clara;13;200 g; Alexia da Rocha
+Latic�nio;Nata Santa Clara;13;200 g;Alexia da Rocha
 Latic�nio;Nata Santa Clara;12;200 g;Olivia Almeida
 Latic�nio;Nata Santa Clara;13;200 g;Eduarda da Concei��o
 Latic�nio;Nata Santa Clara;13;200 g;Felipe Freitas
 Latic�nio;Nata Santa Clara;13;200 g;Ana Sophia Costela
 Latic�nio;Nata Santa Clara;12;200 g;Isabel Mendes
-Latic�nio;Nata Tirol;11;200 g; Isabelly Oliveira
+Latic�nio;Nata Tirol;11;200 g;Isabelly Oliveira
 Latic�nio;Nata Tirol;11;200 g;Ana Laura Azevedo
 Hortifruti;Alho;8;1 kg;Juan Freitas
 Hortifruti;Alho;8;1 kg;Leonardo Teixeira
@@ -914,12 +914,12 @@ Hortifruti;Banana;12;1 kg;Jo�o Miguel da Costa
 Hortifruti;Banana;12;1 kg;Thales Moura
 Hortifruti;Bergamota Ca�;10;1 kg;Andr� da Cruz
 Hortifruti;Bergamota Ca�;10;1 kg;Leonardo da Cruz
-Hortifruti;Bergamota Ca�;11;1 kg; Nathan Ferreira
+Hortifruti;Bergamota Ca�;11;1 kg;Nathan Ferreira
 Hortifruti;Bergamota Ponkan;12;1 kg;Jo�o Guilherme da Cruz
 Hortifruti;Bergamota Ponkan;12;1 kg;Laura Costela
 Hortifruti;Cebola;11;1 kg;Manuela Novaes
 Hortifruti;Cebola;11;1 kg;Augusto Cunha
-Hortifruti;Cenoura;9;1 kg; Thiago Ramos
+Hortifruti;Cenoura;9;1 kg;Thiago Ramos
 Hortifruti;Cenoura;15;1 kg;Pedro Henrique das Neves
 Hortifruti;Cenoura;13;1 kg;Helena Pereira
 Hortifruti;Cenoura;14;1 kg;Enzo Gabriel Nunes
@@ -938,7 +938,7 @@ Hortifruti;Laranja de Umbigo;14;1 kg;Alicia Campos
 Hortifruti;Laranja de Umbigo;9;1 kg;Luiz Ot�vio Porto
 Hortifruti;Laranja de Umbigo;15;1 kg;Nathan Oliveira
 Hortifruti;Laranja do C�u;11;1 kg;Alana Porto
-Hortifruti;Laranja do C�u;11;1 kg; Alice Teixeira
+Hortifruti;Laranja do C�u;11;1 kg;Alice Teixeira
 Hortifruti;Laranja do C�u;11;1 kg;Lucca Cavalcanti
 Hortifruti;Laranja do C�u;8;1 kg;Gabriela da Rocha
 Hortifruti;Laranja do C�u;13;1 kg;Jo�o Pedro Costa
@@ -949,22 +949,22 @@ Hortifruti;Ma��;15;1 kg;Al�cia das Neves
 Hortifruti;Ma��;9;1 kg;Matheus Correia
 Hortifruti;P�ssego;8;1 kg;Vitor Hugo da Mata
 Hortifruti;P�ssego;13;1 kg;Manuela Novaes
-Hortifruti;Tangerina;11;1 kg; Thiago Ramos
+Hortifruti;Tangerina;11;1 kg;Thiago Ramos
 Hortifruti;Abacaxi;9;1 un;Kaique Novaes
 Hortifruti;Abacaxi;14;1 un;Gabriela Alves
 Hortifruti;Abacaxi;10;1 un;Brenda Cardoso
 Hortifruti;Abacaxi;12;1 un;Raul Ara�jo
-Hortifruti;Beterraba;13;1 un; Alexia da Rocha
+Hortifruti;Beterraba;13;1 un;Alexia da Rocha
 Hortifruti;Beterraba;15;1 un;Alana Sales
-Hortifruti;Beterraba;12;1 un; Isadora Nogueira
+Hortifruti;Beterraba;12;1 un;Isadora Nogueira
 Hortifruti;Beterraba;15;1 un;Felipe Freitas
 Hortifruti;Beterraba;12;1 un;Miguel Ramos
-Hortifruti;Beterraba;13;1 un; Isabelly Oliveira
+Hortifruti;Beterraba;13;1 un;Isabelly Oliveira
 Hortifruti;Beterraba;12;1 un;Valentina Ferreira
 Hortifruti;Beterraba;12;1 un;Marcos Vinicius Ara�jo
 Hortifruti;Beterraba;14;1 un;Nicolas Cardoso
 Hortifruti;Beterraba;14;1 un;Eduardo Jesus
-Hortifruti;Beterraba;15;1 un; Maria Luiza Caldeira
+Hortifruti;Beterraba;15;1 un;Maria Luiza Caldeira
 Hortifruti;Beterraba;12;1 un;Davi Lucas Alves
 Hortifruti;Beterraba;13;1 un;Heitor Arag�o
 Hortifruti;Nabo;14;1 un;Andr� da Cruz
@@ -976,7 +976,7 @@ Latic�nio;Manteiga;13;200 g;Milena Costa
 Latic�nio;Manteiga;14;200 g;Enrico Novaes
 Latic�nio;Manteiga;14;200 g;Davi Luiz Lopes
 Latic�nio;Manteiga;20;200 g;Raquel Azevedo
-Latic�nio;Manteiga;12;200 g; Juan Ferreira
+Latic�nio;Manteiga;12;200 g;Juan Ferreira
 Latic�nio;Manteiga;15;200 g;Yago Castro
 Mel;Mel;10;200 g;Sophia Cavalcanti
 Mel;Mel;11;200 g;Eduarda da Concei��o
@@ -990,13 +990,13 @@ Latic�nio;Nata Fresca;12;200 g;Larissa da Mata
 Latic�nio;Nata Fresca;13;200 g;Olivia Almeida
 Latic�nio;Nata Fresca;11;200 g;Eduarda da Concei��o
 Latic�nio;Nata Fresca;12;200 g;Luigi Ramos
-Latic�nio;Nata Fresca;12;200 g; Isadora Nogueira
+Latic�nio;Nata Fresca;12;200 g;Isadora Nogueira
 Latic�nio;Nata Fresca;10;200 g;Isabel Mendes
 Latic�nio;Nata Fresca;12;200 g;Danilo Cavalcanti
 Latic�nio;Nata Fresca;12;200 g;Nicolas Cardoso
 Latic�nio;Nata Fresca;13;200 g;Davi Lucas Alves
 Latic�nio;Nata Fresca;11;200 g;Fernanda Fernandes
-Latic�nio;Nata Pi�;10;200 g; Jo�o Gabriel Correia
+Latic�nio;Nata Pi�;10;200 g;Jo�o Gabriel Correia
 Latic�nio;Nata Pi�;10;200 g;L�via da Cunha
 Latic�nio;Nata Pi�;11;200 g;Ana Laura Azevedo
 Latic�nio;Nata Pi�;10;200 g;Luna Fernandes
@@ -1006,10 +1006,10 @@ Latic�nio;Nata Pi�;13;200 g;Augusto Cunha
 Latic�nio;Nata Pi�;13;200 g;Gabriela Alves
 Latic�nio;Nata Pi�;11;200 g;Enrico Novaes
 Latic�nio;Nata Pi�;10;200 g;Isabelly da Mata
-Latic�nio;Nata Pi�;13;200 g; Luiz Miguel da Costa
+Latic�nio;Nata Pi�;13;200 g;Luiz Miguel da Costa
 Latic�nio;Nata Pi�;11;200 g;Francisco Oliveira
 Latic�nio;Nata Pi�;12;200 g;Brenda Cardoso
-Latic�nio;Nata Pi�;12;200 g; Thiago Ramos
+Latic�nio;Nata Pi�;12;200 g;Thiago Ramos
 Latic�nio;Nata Pi�;12;200 g;Vitor Hugo Viana
 Latic�nio;Nata Pi�;12;200 g;Enzo Gabriel Nunes
 Latic�nio;Nata Santa Clara;12;200 g;Vinicius Moreira
@@ -1020,22 +1020,22 @@ Latic�nio;Nata Santa Clara;12;200 g;Juan Freitas
 Latic�nio;Nata Santa Clara;13;200 g;Augusto das Neves
 Latic�nio;Nata Santa Clara;12;200 g;Cec�lia da Concei��o
 Latic�nio;Nata Santa Clara;12;200 g;Daniela da Cruz
-Latic�nio;Nata Santa Clara;10;200 g; Diego Ara�jo
+Latic�nio;Nata Santa Clara;10;200 g;Diego Ara�jo
 Latic�nio;Nata Santa Clara;10;200 g;Alana Sales
 Latic�nio;Nata Santa Clara;13;200 g;Miguel Ramos
 Latic�nio;Nata Tirol;10;200 g;Ana Clara Silva
-Latic�nio;Nata Tirol;12;200 g; Stephany da Rocha
+Latic�nio;Nata Tirol;12;200 g;Stephany da Rocha
 Latic�nio;Nata Tirol;10;200 g;Maria Sophia Gon�alves
 Latic�nio;Nata Tirol;11;200 g;Vinicius da Paz
 Hortifruti;Alho;13;1 kg;Ryan Cardoso
 Hortifruti;Alho;12;1 kg;Alana Porto
 Hortifruti;Alho;11;1 kg;Jo�o Vitor Sales
 Hortifruti;Alho;9;1 kg;Ot�vio Moreira
-Hortifruti;Alho;14;1 kg; Alexia da Rocha
-Hortifruti;Banana;15;1 kg; Luiz Miguel da Costa
+Hortifruti;Alho;14;1 kg;Alexia da Rocha
+Hortifruti;Banana;15;1 kg;Luiz Miguel da Costa
 Hortifruti;Bergamota Ca�;13;1 kg;Luiza da Mata
 Hortifruti;Bergamota Ca�;10;1 kg;Augusto Ribeiro
-Hortifruti;Bergamota Ca�;8;1 kg; Cau� da Concei��o
+Hortifruti;Bergamota Ca�;8;1 kg;Cau� da Concei��o
 Hortifruti;Bergamota Ca�;12;1 kg;Al�cia das Neves
 Hortifruti;Bergamota Ca�;14;1 kg;Lucas da Cunha
 Hortifruti;Bergamota Ponkan;9;1 kg;Jo�o Vitor Sales
@@ -1054,7 +1054,7 @@ Hortifruti;Cenoura;11;1 kg;Lucca Cavalcanti
 Hortifruti;Cenoura;13;1 kg;Gabriela da Rocha
 Hortifruti;Laranja de Umbigo;9;1 kg;Davi Luiz Lopes
 Hortifruti;Laranja de Umbigo;12;1 kg;Mirella Viana
-Hortifruti;Laranja de Umbigo;8;1 kg; Pietra Lima
+Hortifruti;Laranja de Umbigo;8;1 kg;Pietra Lima
 Hortifruti;Laranja de Umbigo;15;1 kg;Maria Cec�lia Almeida
 Hortifruti;Laranja de Umbigo;10;1 kg;Yago Castro
 Hortifruti;Laranja de Umbigo;14;1 kg;Pedro Henrique das Neves
@@ -1074,9 +1074,9 @@ Hortifruti;Abacaxi;13;1 un;Ana Laura Azevedo
 Hortifruti;Abacaxi;14;1 un;Thomas Freitas
 Hortifruti;Abacaxi;10;1 un;Jo�o Felipe Cruz
 Hortifruti;Abacaxi;13;1 un;Felipe Ramos
-Hortifruti;Abacaxi;10;1 un; Pietra Lima
+Hortifruti;Abacaxi;10;1 un;Pietra Lima
 Hortifruti;Abacaxi;15;1 un;Maria Cec�lia Almeida
-Hortifruti;Abacaxi;15;1 un; Thiago Ramos
+Hortifruti;Abacaxi;15;1 un;Thiago Ramos
 Hortifruti;Abacaxi;11;1 un;Fernando Vieira
 Hortifruti;Beterraba;14;1 un;Larissa da Mata
 Hortifruti;Beterraba;14;1 un;Breno das Neves
@@ -1086,7 +1086,7 @@ Hortifruti;Beterraba;12;1 un;Danilo Cavalcanti
 Hortifruti;Beterraba;14;1 un;Ana Clara Silva
 Hortifruti;Beterraba;13;1 un;Francisco da Paz
 Hortifruti;Beterraba;13;1 un;Vinicius da Paz
-Hortifruti;Beterraba;15;1 un; Stephany Pereira
+Hortifruti;Beterraba;15;1 un;Stephany Pereira
 Hortifruti;Beterraba;12;1 un;L�via da Cunha
 Hortifruti;Beterraba;14;1 un;Eduardo Nunes
 Hortifruti;Beterraba;15;1 un;Cau� das Neves
@@ -1115,8 +1115,8 @@ Hortifruti;Banana;13;1 kg;Isabelly da Mata
 Hortifruti;Bergamota Ca�;10;1 kg;Isabelly da Mata
 Hortifruti;Bergamota Ca�;15;1 kg;Maria Luiza Costela
 Hortifruti;Bergamota Ca�;11;1 kg;Maria Cec�lia Almeida
-Hortifruti;Bergamota Ca�;8;1 kg; Juan Ferreira
-Hortifruti;Bergamota Ca�;15;1 kg; Thiago Ramos
+Hortifruti;Bergamota Ca�;8;1 kg;Juan Ferreira
+Hortifruti;Bergamota Ca�;15;1 kg;Thiago Ramos
 Hortifruti;Bergamota Ca�;11;1 kg;Raul Ara�jo
 Hortifruti;Bergamota Ca�;14;1 kg;Jo�o Guilherme Ramos
 Hortifruti;Bergamota Ca�;13;1 kg;Mariana Campos
@@ -1125,14 +1125,14 @@ Hortifruti;Bergamota Ponkan;13;1 kg;Nat�lia da Costa
 Hortifruti;Bergamota Ponkan;10;1 kg;Cec�lia Correia
 Hortifruti;Cebola;15;1 kg;Ana Laura Azevedo
 Hortifruti;Cebola;15;1 kg;Alicia Campos
-Hortifruti;Cebola;10;1 kg; Maria Fernanda Rocha
+Hortifruti;Cebola;10;1 kg;Maria Fernanda Rocha
 Hortifruti;Cebola;12;1 kg;Enrico Novaes
 Hortifruti;Cebola;13;1 kg;Maria Luiza Costela
 Hortifruti;Cebola;11;1 kg;Thales Moura
-Hortifruti;Cebola;11;1 kg; Luiz Miguel da Costa
-Hortifruti;Cebola;14;1 kg; Pietra Lima
+Hortifruti;Cebola;11;1 kg;Luiz Miguel da Costa
+Hortifruti;Cebola;14;1 kg;Pietra Lima
 Hortifruti;Cenoura;15;1 kg;Francisco Oliveira
-Hortifruti;Cenoura;10;1 kg; Cau� da Concei��o
+Hortifruti;Cenoura;10;1 kg;Cau� da Concei��o
 Hortifruti;Cenoura;11;1 kg;Fernando Santos
 Hortifruti;Cenoura;13;1 kg;Yago Peixoto
 Hortifruti;Cenoura;14;1 kg;Jo�o Pedro Costa
@@ -1142,7 +1142,7 @@ Hortifruti;Laranja de Umbigo;12;1 kg;Jo�o Miguel da Costa
 Hortifruti;Laranja de Umbigo;11;1 kg;Raquel Azevedo
 Hortifruti;Laranja de Umbigo;12;1 kg;Andr� da Cruz
 Hortifruti;Laranja de Umbigo;8;1 kg;Davi Lucca Teixeira
-Hortifruti;Laranja de Umbigo;12;1 kg; Thiago Ramos
+Hortifruti;Laranja de Umbigo;12;1 kg;Thiago Ramos
 Hortifruti;Laranja de Umbigo;8;1 kg;Milena Arag�o
 Hortifruti;Laranja do C�u;15;1 kg;Julia Dias
 Hortifruti;Laranja do C�u;9;1 kg;Vitor Gabriel Mendes
@@ -1156,7 +1156,7 @@ Hortifruti;Laranja do C�u;9;1 kg;Andr� Campos
 Hortifruti;Laranja do C�u;15;1 kg;Nat�lia da Costa
 Hortifruti;Laranja do C�u;14;1 kg;Cec�lia Correia
 Hortifruti;Laranja do C�u;14;1 kg;Daniela da Cruz
-Hortifruti;Laranja do C�u;13;1 kg; Alexia da Rocha
+Hortifruti;Laranja do C�u;13;1 kg;Alexia da Rocha
 Hortifruti;Ma��;15;1 kg;Julia Dias
 Hortifruti;Ma��;14;1 kg;Francisco Barbosa
 Hortifruti;Ma��;9;1 kg;Daniel Gon�alves
@@ -1164,16 +1164,16 @@ Hortifruti;P�ssego;10;1 kg;Kaique Novaes
 Hortifruti;P�ssego;13;1 kg;Ana Beatriz Souza
 Hortifruti;P�ssego;13;1 kg;Augusto Cunha
 Hortifruti;Tangerina;8;1 kg;Mirella Viana
-Hortifruti;Tangerina;9;1 kg; Juan Ferreira
+Hortifruti;Tangerina;9;1 kg;Juan Ferreira
 Hortifruti;Abacaxi;15;1 un;Vitor Hugo da Mata
 Hortifruti;Abacaxi;12;1 un;Davi Luiz Lopes
 Hortifruti;Abacaxi;15;1 un;Mirella Viana
 Hortifruti;Abacaxi;12;1 un;Maria Luiza Costela
 Hortifruti;Abacaxi;12;1 un;Davi Lucca Teixeira
-Hortifruti;Abacaxi;14;1 un; Juan Ferreira
+Hortifruti;Abacaxi;14;1 un;Juan Ferreira
 Hortifruti;Abacaxi;15;1 un;Luiza da Mata
 Hortifruti;Abacaxi;11;1 un;Leonardo da Cruz
-Hortifruti;Abacaxi;11;1 un; Cau� da Concei��o
+Hortifruti;Abacaxi;11;1 un;Cau� da Concei��o
 Hortifruti;Beterraba;13;1 un;Olivia Almeida
 Hortifruti;Beterraba;14;1 un;Eduarda da Concei��o
 Hortifruti;Beterraba;13;1 un;Maria Alice Correia
@@ -1182,14 +1182,14 @@ Hortifruti;Beterraba;13;1 un;Maria Sophia Gon�alves
 Hortifruti;Beterraba;15;1 un;Agatha da Paz
 Hortifruti;Beterraba;12;1 un;Clara Sales
 Hortifruti;Beterraba;13;1 un;Fernanda Fernandes
-Hortifruti;Beterraba;12;1 un; Jo�o Gabriel Correia
+Hortifruti;Beterraba;12;1 un;Jo�o Gabriel Correia
 Hortifruti;Beterraba;13;1 un;Erick Moreira
 Hortifruti;Nabo;15;1 un;Maria Cec�lia Almeida
 Hortifruti;Nabo;14;1 un;Bruno Pires
 Hortifruti;Nabo;9;1 un;Pedro Henrique das Neves
 Hortifruti;Nabo;15;1 un;Raul Ara�jo
 Hortifruti;Nabo;13;1 un;Vitor Barbosa
-Hortifruti;Nabo;8;1 un; Ana Rezende
+Hortifruti;Nabo;8;1 un;Ana Rezende
 Hortifruti;Nabo;8;1 un;Giovanna Mendes
 Latic�nio;Manteiga;18;200 g;Isabelly da Mata
 Latic�nio;Manteiga;19;200 g;Felipe Ramos
@@ -1206,23 +1206,23 @@ Latic�nio;Requeij�o Catupiry;18;500 g;Lucca Cavalcanti
 Latic�nio;Requeij�o Catupiry;18;500 g;Gabriela da Rocha
 Latic�nio;Requeij�o Catupiry;15;500 g;Andr� Campos
 Latic�nio;Requeij�o Catupiry;16;500 g;Pedro Henrique Freitas
-Latic�nio;Requeij�o Catupiry;20;500 g; Andr� da Rocha
+Latic�nio;Requeij�o Catupiry;20;500 g;Andr� da Rocha
 Latic�nio;Requeij�o Catupiry;19;500 g;Isabelly Moura
 Latic�nio;Requeij�o Catupiry;15;500 g;Luigi Ramos
-Latic�nio;Requeij�o Catupiry;20;500 g; Isadora Nogueira
+Latic�nio;Requeij�o Catupiry;20;500 g;Isadora Nogueira
 Latic�nio;Requeij�o Po�os de Caldas;19;500 g;Nicolas Cardoso
 Latic�nio;Requeij�o Po�os de Caldas;20;500 g;Matheus Teixeira
 Latic�nio;Requeij�o Po�os de Caldas;18;500 g;Fernanda Fernandes
 Latic�nio;Manteiga;15;200 g;Ana Laura Azevedo
 Latic�nio;Manteiga;19;200 g;Jo�o Felipe Cruz
-Latic�nio;Manteiga;12;200 g; Luiz Miguel da Costa
+Latic�nio;Manteiga;12;200 g;Luiz Miguel da Costa
 Latic�nio;Manteiga;13;200 g;Pedro Henrique das Neves
 Latic�nio;Manteiga;20;200 g;Enzo Gabriel Nunes
 Mel;Mel;11;200 g;Ana Beatriz Santos
-Mel;Mel;10;200 g; Jo�o Gabriel Correia
+Mel;Mel;10;200 g;Jo�o Gabriel Correia
 Mel;Mel;19;200 g;Paulo Novaes
 Mel;Mel;13;200 g;Ryan Cardoso
-Latic�nio;Requeij�o Catupiry;16;500 g; Ana Rezende
+Latic�nio;Requeij�o Catupiry;16;500 g;Ana Rezende
 Latic�nio;Requeij�o Catupiry;20;500 g;Sophia da Mata
 Latic�nio;Requeij�o Catupiry;19;500 g;Alexia Barros
 Latic�nio;Requeij�o Catupiry;19;500 g;Cec�lia da Concei��o
@@ -1239,7 +1239,7 @@ Latic�nio;Requeij�o Po�os de Caldas;18;500 g;Agatha da Paz
 Latic�nio;Requeij�o Po�os de Caldas;15;500 g;Eduardo Jesus
 Latic�nio;Requeij�o Po�os de Caldas;18;500 g;Clara Sales
 Latic�nio;Requeij�o Po�os de Caldas;15;500 g;Jo�o Guilherme da Cunha
-Latic�nio;Requeij�o Po�os de Caldas;16;500 g; Jo�o Gabriel Correia
+Latic�nio;Requeij�o Po�os de Caldas;16;500 g;Jo�o Gabriel Correia
 Latic�nio;Manteiga;16;200 g;Valentina Ferreira
 Latic�nio;Manteiga;15;200 g;Juliana Rocha
 Latic�nio;Manteiga;19;200 g;Ana Beatriz Souza
@@ -1248,7 +1248,7 @@ Latic�nio;Manteiga;18;200 g;Alicia Campos
 Latic�nio;Manteiga;19;200 g;Helena Pereira
 Latic�nio;Manteiga;18;200 g;Augusto Ribeiro
 Mel;Mel;18;200 g;Cec�lia Correia
-Mel;Mel;16;200 g; Isabelly Oliveira
+Mel;Mel;16;200 g;Isabelly Oliveira
 Mel;Mel;14;200 g;Clara Sales
 Mel;Mel;19;200 g;Matheus Teixeira
 Mel;Mel;20;200 g;Erick Moreira
@@ -1259,9 +1259,9 @@ Latic�nio;Requeij�o Catupiry;15;500 g;Ot�vio Moreira
 Latic�nio;Requeij�o Catupiry;17;500 g;Daniela da Cruz
 Latic�nio;Requeij�o Catupiry;16;500 g;Ana Beatriz Santos
 Latic�nio;Requeij�o Catupiry;19;500 g;Alexandre das Neves
-Latic�nio;Requeij�o Po�os de Caldas;15;500 g; Stephany Pereira
-Latic�nio;Requeij�o Po�os de Caldas;18;500 g;Heitor Arag�o
-Latic�nio;Manteiga;13;200 g; Isabelly Oliveira
+Latic�nio;Requeij�o Po�os deCaldas;15;500 g; Stephany Pereira
+Latic�nio;Requeij�o Po�os deCaldas;18;500 g;Heitor Arag�o
+Latic�nio;Manteiga;13;200 g;Isabelly Oliveira
 Latic�nio;Manteiga;19;200 g;Matheus Nogueira
 Latic�nio;Manteiga;14;200 g;Kaique Novaes
 Latic�nio;Manteiga;18;200 g;Thomas Freitas
