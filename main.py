@@ -1,5 +1,93 @@
 import random
 
+import csv
+
+class TabelaHash:
+    def __init__(self):
+        self.tabela = {}
+
+    def adicionar_item(self, chave, valor):
+        if chave not in self.tabela:
+            self.tabela[chave] = [valor]
+        else:
+            self.tabela[chave].append(valor)
+
+# Função para receber a tabela de produtores de um arquivo CSV
+def receber_tabela_produtos():
+    produtos = TabelaHash()
+
+    nome_arquivo = "Produtos.csv"
+
+    with open(nome_arquivo, "r", encoding="ISO-8859-1") as arquivo:
+        leitor = csv.reader(arquivo, delimiter=";")
+        cabecalho = next(leitor)  # Pula a linha do cabeçalho
+
+        for linha in leitor:
+            tipo_produto = linha[0]
+            produto = linha[1]
+            preco = float(linha[2])
+            peso = linha[3]
+            fornecedor = linha[4]
+
+            item = {
+                "Tipo de produto": tipo_produto,
+                "Produto": produto,
+                "Preço (R$)": preco,
+                "Peso": peso,
+                "Fornecedor": fornecedor
+            }
+
+            produtos.adicionar_item(fornecedor, item)
+
+    return produtos
+
+# Função para receber a tabela de produtos de um arquivo CSV
+def receber_tabela_fretes():
+    fretes = TabelaHash()
+
+    nome_arquivo = "Fretes.csv"
+
+    with open(nome_arquivo, "r", encoding="ISO-8859-1") as arquivo:
+        leitor = csv.reader(arquivo, delimiter=";")
+        cabecalho = next(leitor)  # Pula a linha do cabeçalho
+        for linha in leitor:
+            fornecedor = linha[0]
+            item = {
+                "Fornecedor": fornecedor,
+                "Frete": float(linha[1])
+            }
+            fretes.adicionar_item(fornecedor, item)
+
+    return fretes
+
+def receber_tabela_carrinho():
+    tabela_produtos = TabelaHash()
+
+    nome_arquivo = "Carrinhos.csv"
+
+    with open(nome_arquivo, "r", encoding="utf-8") as arquivo:
+        leitor = csv.reader(arquivo, delimiter=";")
+        cabecalho = next(leitor)  # Pula a linha do cabeçalho
+
+        for linha in leitor:
+            produto = linha[0]
+            quantidade = int(linha[1])
+
+            tabela_produtos.adicionar_item(produto, quantidade)
+
+    return tabela_produtos
+
+# Exemplo de uso
+
+tabela_carrinho = receber_tabela_carrinho()
+tabela_fretes = receber_tabela_fretes()
+tabela_produtos = receber_tabela_produtos()
+
+# Acesso às informações da tabela hash
+print(tabela_carrinho.tabela)
+print(tabela_fretes.tabela)
+print(tabela_produtos.tabela)
+
 # Função de aptidão de exemplo
 def fitness(individual):
     # Implemente a função de aptidão de acordo com o problema em questão
@@ -29,7 +117,7 @@ def mutate(individual, mutation_rate):
 
 # Parâmetros do algoritmo genético
 population_size = 100
-gene_length = 10
+gene_length = 1541
 mutation_rate = 0.1
 max_generations = 100
 
