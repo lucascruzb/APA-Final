@@ -22,7 +22,7 @@ class TabelaHash:
 def selection_elitist(population, fitness_scores, num_parents):
     # Selecionar os melhores indivíduos (menor aptidão) como pais
     sorted_population = sorted(zip(fitness_scores, population), key=lambda x: x[0])
-    selected_parents = [x[1] for x in sorted_population[:num_parents]]
+    selected_parents = [x[1] for x in sorted_population[:int(num_parents)]]
     return selected_parents
 
 def listar_produtores():
@@ -156,11 +156,11 @@ def mutate(individual, mutation_rate):
     return Population(mutated_individual, fitness(mutated_individual))
 
 # Parâmetros do algoritmo genético
-population_size = 10000
+population_size = 100000
 gene_length = len(tabela_carrinho.tabela)
 mutation_rate = 0.5
 max_generations = 1000
-num_parents = 25
+num_parents = population_size/4000
 
 class Population:
     def __init__(self, individuo, score):
