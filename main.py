@@ -1,6 +1,7 @@
 import random
-
 import csv
+from tabulate import tabulate
+
 
 class TabelaHash:
     def __init__(self):
@@ -13,40 +14,80 @@ class TabelaHash:
             if not isinstance(self.tabela[chave], list):
                 self.tabela[chave] = [self.tabela[chave]]
             self.tabela[chave].append(valor)
-        
 
     def adicionar_score(self, chave, score):
         self.tabela[chave].append(score)
+
+
+headers = ["Produtor", "Produto", "Quantidade", "Valor", "Valor Total"]
+headersFrete = ["Fornecedor", "Frete"]
+
 
 # Função de seleção para o cruzamento (elitista)
 def selection_elitist(population, fitness_scores, num_parents):
     # Selecionar os melhores indivíduos (menor aptidão) como pais
     sorted_population = sorted(zip(fitness_scores, population), key=lambda x: x[0])
-    selected_parents = [x[1] for x in sorted_population[:int(num_parents)]]
+    selected_parents = [x[1] for x in sorted_population[:num_parents]]
     return selected_parents
 
+
+# percorrrer carrinho listando os produtores escolhidos e seus respectivos fornecedores
+def perecorrer_carrinho(carrinho):
+    a = 0
+    data = []
+    for _ in tabela_carrinho.tabela:
+        produtor = carrinho[a]
+        a += 1
+        if a > len(carrinho):
+            break
+        fornecedor = str(tabela_produtos.tabela[_][produtor]["Fornecedor"])
+        produto = _
+        peso = tabela_produtos.tabela[_][produtor]["Peso"]
+        preco = tabela_produtos.tabela[_][produtor]["Preço (R$)"]
+        preco_unidade = preco / peso
+        quantidade = tabela_carrinho.tabela[_]
+        valorTotal = preco_unidade * quantidade
+
+        data.append([fornecedor, produto, quantidade, preco_unidade, valorTotal])
+    # Generate the table using tabulate
+    table = tabulate(data, headers=headers, tablefmt="grid")
+    print(table)
+
+
+def calcularFrete(produtores):
+    data = []
+    valorTotal = 0
+    for fornecedor in produtores:
+        data.append([fornecedor, tabela_fretes.tabela[fornecedor]["Frete"]])
+        valorTotal += tabela_fretes.tabela[fornecedor]["Frete"]
+    data.append(["Valor total", valorTotal])
+    # Generate the table using tabulate
+    table = tabulate(data, headers=headersFrete, tablefmt="grid")
+    print(table)
+
+
 def listar_produtores():
-    a = 0;
+    a = 0
     produtores = []
     for _ in tabela_carrinho.tabela:
         produtor = individual[a]
-        fornecedor = str(tabela_produtos.tabela[_][produtor]['Fornecedor'])
+        fornecedor = str(tabela_produtos.tabela[_][produtor]["Fornecedor"])
         if fornecedor in produtores:
-            pass;
-        else :
+            pass
+        else:
             produtores.append(fornecedor)
-        a +=1;
+        a += 1
     for nome in produtores:
-        if nome is not None: 
+        if nome is not None:
             print(nome)
 
-# Função para receber a tabela de produtores de um arquivo CSV
+
 def receber_tabela_produtos():
     produtos = TabelaHash()
 
     nome_arquivo = "Produtos.csv"
 
-    with open(nome_arquivo, "r", encoding="UTF-8") as arquivo:
+    with open(nome_arquivo, "r", encoding="latin-1") as arquivo:
         leitor = csv.reader(arquivo, delimiter=";")
         cabecalho = next(leitor)  # Pula a linha do cabeçalho
 
@@ -54,7 +95,13 @@ def receber_tabela_produtos():
             tipo_produto = linha[0]
             produto = linha[1]
             preco = float(linha[2])
-            peso = linha[3]
+            peso_str = linha[3].split()[0]
+            unidade_medida = linha[3].split()[1]
+            if unidade_medida == "kg":
+                peso = float(peso_str) * 1000
+            else:
+                peso = float(peso_str)
+
             fornecedor = linha[4]
 
             item = {
@@ -62,12 +109,13 @@ def receber_tabela_produtos():
                 "Produto": produto,
                 "Preço (R$)": preco,
                 "Peso": peso,
-                "Fornecedor": fornecedor
+                "Fornecedor": fornecedor,
             }
 
             produtos.adicionar_item(produto, item)
 
     return produtos
+
 
 # Função para receber a tabela de produtos de um arquivo CSV
 def receber_tabela_fretes():
@@ -75,64 +123,69 @@ def receber_tabela_fretes():
 
     nome_arquivo = "Fretes.csv"
 
-    with open(nome_arquivo, "r", encoding="utf-8") as arquivo:
+    with open(nome_arquivo, "r", encoding="latin-1") as arquivo:
         leitor = csv.reader(arquivo, delimiter=";")
         cabecalho = next(leitor)  # Pula a linha do cabeçalho
         for linha in leitor:
             fornecedor = linha[0]
-            item = {
-                "Fornecedor": fornecedor,
-                "Frete": float(linha[1])
-            }
+            item = {"Fornecedor": fornecedor, "Frete": float(linha[1])}
             fretes.adicionar_item(fornecedor, item)
 
     return fretes
+
 
 # Função para receber a tabela de produtos de um arquivo CSV
 def receber_tabela_carrinho():
     tabela_produtos = TabelaHash()
 
-    nome_arquivo = "Carrinhos.csv"
+    nome_arquivo = "Carrinho.csv"
 
-    with open(nome_arquivo, "r", encoding="utf-8") as arquivo:
+    with open(nome_arquivo, "r", encoding="latin-1") as arquivo:
         leitor = csv.reader(arquivo, delimiter=";")
         cabecalho = next(leitor)  # Pula a linha do cabeçalho
 
         for linha in leitor:
-            produto = linha[0]
-            quantidade = int(linha[1])
+            produto = linha[1]
+            quantidade = int(linha[2].split()[0])
+            unidade_medida = linha[2].split()[1]
+            if unidade_medida == "kg":
+                quantidade = float(quantidade) * 1000
+            else:
+                quantidade = float(quantidade)
 
             tabela_produtos.adicionar_item(produto, quantidade)
 
     return tabela_produtos
 
-# Exemplo de uso
 
+# Exemplo de uso
 tabela_carrinho = receber_tabela_carrinho()
 tabela_fretes = receber_tabela_fretes()
 tabela_produtos = receber_tabela_produtos()
 
-# Acesso às informações da tabela hash
-# print(tabela_carrinho.tabela)
-# print(tabela_fretes.tabela)
-# print(tabela_produtos.tabela)
 
 # Função de aptidão de exemplo
 def fitness(individual):
-    a = 0;
-    valorTotal =0;
+    a = 0
+    valorTotal = 0
     produtores = []
     for _ in tabela_carrinho.tabela:
         produtor = individual[a]
-        valorTotal += tabela_produtos.tabela[_][produtor]['Preço (R$)'] * tabela_carrinho.tabela[_]
-        fornecedor = str(tabela_produtos.tabela[_][produtor]['Fornecedor'])
+        peso = tabela_produtos.tabela[_][produtor]["Peso"]
+        preco = tabela_produtos.tabela[_][produtor]["Preço (R$)"]
+        quantidade = tabela_carrinho.tabela[_]
+        preco_unidade = preco / peso
+        valorTotal += preco_unidade * quantidade
+        fornecedor = str(tabela_produtos.tabela[_][produtor]["Fornecedor"])
         if fornecedor in produtores:
-            pass;
-        else :
+            pass
+        else:
             produtores.append(fornecedor)
-            valorTotal += tabela_fretes.tabela[fornecedor]['Frete']
-        a +=1;
-    return valorTotal
+            valorTotalFrete = tabela_fretes.tabela[fornecedor]["Frete"]
+            valorTotal += tabela_fretes.tabela[fornecedor]["Frete"]
+        a += 1
+    return valorTotal, produtores
+
 
 # Função de cruzamento (crossover)
 def crossover(parent1, parent2):
@@ -142,6 +195,7 @@ def crossover(parent1, parent2):
     child1 = parent1[:point] + parent2[point:]
     child2 = parent2[:point] + parent1[point:]
     return child1, child2
+
 
 # Função de mutação
 def mutate(individual, mutation_rate):
@@ -155,17 +209,21 @@ def mutate(individual, mutation_rate):
             mutated_individual.append(gene)
     return Population(mutated_individual, fitness(mutated_individual))
 
+
 # Parâmetros do algoritmo genético
-population_size = 100000
+population_size = 10000
 gene_length = len(tabela_carrinho.tabela)
 mutation_rate = 0.5
 max_generations = 1000
-num_parents = population_size/4000
+num_parents = 25
+
 
 class Population:
     def __init__(self, individuo, score):
         self.individuo = individuo
         self.score = score
+
+
 # Gerar população inicial
 population = []
 for i in range(population_size):
@@ -186,16 +244,17 @@ while generation < max_generations:
 
     # Cruzamento
     new_population = []
-    for i in range(int(population_size/2)):
+    for i in range(int(population_size / 2)):
         parent1 = random.choice(selected_parents)
         parent2 = random.choice(selected_parents)
         child1, child2 = crossover(parent1.individuo, parent2.individuo)
         new_population.append(Population(child1, fitness(child1)))
-        new_population.append(Population(child2,fitness(child2)))
+        new_population.append(Population(child2, fitness(child2)))
 
     # Mutação
-    mutated_population = [mutate(individual.individuo, mutation_rate) for individual in new_population]
-
+    mutated_population = [
+        mutate(individual.individuo, mutation_rate) for individual in new_population
+    ]
 
     # Avaliar aptidão dos novos indivíduos
     fitness_scores_mutated = [objeto.score for objeto in mutated_population]
@@ -203,19 +262,18 @@ while generation < max_generations:
     # Substituir apenas os indivíduos com fitness_score maior do que os novos indivíduos
 
     if min(fitness_scores) <= min(fitness_scores_mutated):
-        stop +=1
+        stop += 1
         if stop == 50:
             break
-    else : 
+    else:
         stop = 0
 
     # Selecionar os 10 melhores indivíduos da população atual
     sorted_population = sorted(population, key=lambda x: x.score)
     top_individuals = sorted_population[:10]
-    
 
     # Substituir os demais indivíduos pelos seus filhos correspondentes
-    new_population = top_individuals + mutated_population[len(top_individuals):]
+    new_population = top_individuals + mutated_population[len(top_individuals) :]
 
     # Atualizar a população
     population = new_population
@@ -223,7 +281,9 @@ while generation < max_generations:
 
     # Imprimir o melhor indivíduo da geração atual
     best_individual = population[fitness_scores.index(min(fitness_scores))]
-    print(f"Geração {generation + 1} - Melhor indivíduo (população): {best_individual.individuo} - Aptidão: {fitness(best_individual.individuo)}")
+    print(
+        f"G{generation + 1} - Melhor indivíduo: {best_individual.individuo} - Aptidão: {(best_individual.score[0])}"
+    )
 
     generation += 1
 
@@ -232,3 +292,5 @@ print("Melhor indivíduo:", best_individual.individuo)
 print("Produtores:")
 listar_produtores()
 print("Aptidão:", fitness(best_individual.individuo))
+print(perecorrer_carrinho(best_individual.individuo))
+print("Valores envio:", calcularFrete(best_individual.score[1]))
