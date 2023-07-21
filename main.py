@@ -51,7 +51,7 @@ def percorrer_carrinho(carrinho):
         total += valorTotal
 
         data.append([fornecedor, produto, quantidade, preco_unidade, valorTotal])
-        data.append(["Valor total:", total])
+    data.append(["Valor total:","","","",total])
     # Generate the table using tabulate
     table = tabulate(data, headers=headers, tablefmt="grid")
     print(table)
