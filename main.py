@@ -32,9 +32,10 @@ def selection_elitist(population, fitness_scores, num_parents):
 
 
 # percorrrer carrinho listando os produtores escolhidos e seus respectivos fornecedores
-def perecorrer_carrinho(carrinho):
+def percorrer_carrinho(carrinho):
     a = 0
     data = []
+    total = 0
     for _ in tabela_carrinho.tabela:
         produtor = carrinho[a]
         a += 1
@@ -47,8 +48,10 @@ def perecorrer_carrinho(carrinho):
         preco_unidade = preco / peso
         quantidade = tabela_carrinho.tabela[_]
         valorTotal = preco_unidade * quantidade
+        total += valorTotal
 
         data.append([fornecedor, produto, quantidade, preco_unidade, valorTotal])
+        data.append(["Valor total:", total])
     # Generate the table using tabulate
     table = tabulate(data, headers=headers, tablefmt="grid")
     print(table)
@@ -289,10 +292,8 @@ while generation < max_generations:
 
 best_individual = population[fitness_scores.index(min(fitness_scores))]
 print("Melhor indivíduo:", best_individual.individuo)
-print("Produtores:")
-listar_produtores()
 print("Aptidão:", best_individual.score[0])
-perecorrer_carrinho(best_individual.individuo)
+percorrer_carrinho(best_individual.individuo)
 print("Quantidade de produtores", len(fitness(best_individual.individuo)[1]) + 1)
 print("Valores envio:")
 calcularFrete(best_individual.score[1])
